@@ -1,0 +1,27 @@
+{{ define "layout" }}
+  <!DOCTYPE html>
+  <html lang="en">
+    <head>
+      <meta charset="utf-8" />
+      <title>{{ block "pageTitle" . }}{{ end }} - {{ tr "siteName" }}</title>
+      <link rel="stylesheet" href="css/screen.css" type="text/css" />
+    </head>
+    <body>
+      <h1>{{ template "pageTitle" . }}</h1>
+      
+      <nav>
+        <ul>
+          <li><a href="{{ trc "path" "home" }}">{{ tr "home" }}</a></li>
+          <li><a href="{{ trc "path" "create" }}">{{ trc "button" "create" }}</a></li>
+          <li><a href="#">{{ trc "button" "signOut" }}</a></li>
+        </ul>
+      </nav>
+      
+      {{ template "pageContent" . }}
+
+      <footer>
+        <a href="{{ otrc "path" .PathName }}">{{ tr "seeContentInTheOtherLanguage" }}</a>
+      </footer>
+    </body>
+  </html>
+{{ end }}

@@ -1,0 +1,8 @@
+{{ tr "simple" }}
+{{ trs "plural" 3 }}
+{{ trf "formatted" "Name" "John" "Age" 20 }}
+{{ trsf "formattedPlural" 5 "Name" "John" }}
+{{ trc "action" "save" }}
+{{ trcs "action" "savePlural" 5 }}
+{{ trcf "action" "saveFile" "File" "my-file.txt" }}
+{{ trcsf "action" "saveFiles" 5 "Directory" "my-files" }}

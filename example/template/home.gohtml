@@ -1,0 +1,15 @@
+{{ template "layout" . }}
+
+{{ define "pageTitle" }}
+  {{ tr "home" }}
+{{ end }}
+
+{{ define "pageContent" }}
+    <p>{{ trs "youHaveXNotesAt" .Notes.Len "At" "Jan 2026" }}</p>
+
+    <ul>
+      {{ range .Notes.All }}
+        <li>{{ .Content }} - <a href="delete">{{ trc "button" "delete" }}</a></li>
+      {{ end }}
+    </ul>
+{{ end }}

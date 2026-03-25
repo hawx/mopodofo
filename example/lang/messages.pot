@@ -1,0 +1,60 @@
+msgid ""
+msgstr ""
+"POT-Creation-Date: 0001-01-01T00:00:00+00:00\n"
+"X-Generator: mopodofo\n"
+
+#: example/template/create.gohtml:4 example/template/create.gohtml:8
+msgid "create"
+msgstr ""
+
+#: example/template/create.gohtml:13 example/template/layout/layout.gohtml:15
+msgctxt "button"
+msgid "create"
+msgstr ""
+
+#: example/paths/paths.go:22 example/template/layout/layout.gohtml:15
+msgctxt "path"
+msgid "create"
+msgstr ""
+
+#: example/template/home.gohtml:12
+msgctxt "button"
+msgid "delete"
+msgstr ""
+
+#: example/paths/paths.go:24
+msgctxt "path"
+msgid "delete"
+msgstr ""
+
+#: example/template/home.gohtml:4 example/template/layout/layout.gohtml:14
+msgid "home"
+msgstr ""
+
+#: example/paths/paths.go:20 example/template/layout/layout.gohtml:14
+msgctxt "path"
+msgid "home"
+msgstr ""
+
+#. Personalisation available: Port
+#: example/main.go:33 example/main.go:35
+msgid "runningOn"
+msgstr ""
+
+#: example/template/layout/layout.gohtml:23
+msgid "seeContentInTheOtherLanguage"
+msgstr ""
+
+#: example/template/layout/layout.gohtml:16
+msgctxt "button"
+msgid "signOut"
+msgstr ""
+
+#: example/template/layout/layout.gohtml:6
+msgid "siteName"
+msgstr ""
+
+#: example/template/home.gohtml:8
+msgid "youHaveXNotesAt"
+msgid_plural "youHaveXNotesAt"
+msgstr[0] ""

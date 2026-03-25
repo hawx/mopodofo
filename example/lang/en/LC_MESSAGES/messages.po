@@ -1,0 +1,64 @@
+msgid ""
+msgstr ""
+"POT-Creation-Date: 0001-01-01T00:00:00+00:00\n"
+"Language: en\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: mopodofo\n"
+
+#: example/template/create.gohtml:4 example/template/create.gohtml:8
+msgid "create"
+msgstr "Create"
+
+#: example/template/create.gohtml:13 example/template/layout/layout.gohtml:15
+msgctxt "button"
+msgid "create"
+msgstr "Create!"
+
+#: example/paths/paths.go:22 example/template/layout/layout.gohtml:15
+msgctxt "path"
+msgid "create"
+msgstr "/create"
+
+#: example/template/home.gohtml:12
+msgctxt "button"
+msgid "delete"
+msgstr "Delete!"
+
+#: example/paths/paths.go:24
+msgctxt "path"
+msgid "delete"
+msgstr "/delete"
+
+#: example/template/home.gohtml:4 example/template/layout/layout.gohtml:14
+msgid "home"
+msgstr "Home"
+
+#: example/paths/paths.go:20 example/template/layout/layout.gohtml:14
+msgctxt "path"
+msgid "home"
+msgstr "/en"
+
+#. Personalisation available: Port
+#: example/main.go:33 example/main.go:35
+msgid "runningOn"
+msgstr "Running on port {{.Port}}"
+
+#: example/template/layout/layout.gohtml:23
+msgid "seeContentInTheOtherLanguage"
+msgstr "Gweler hwn yn Gymraeg"
+
+#: example/template/layout/layout.gohtml:16
+msgctxt "button"
+msgid "signOut"
+msgstr "Sign out"
+
+#: example/template/layout/layout.gohtml:6
+msgid "siteName"
+msgstr "This is my site"
+
+#: example/template/home.gohtml:8
+msgid "youHaveXNotesAt"
+msgid_plural "youHaveXNotesAt"
+msgstr[0] "You have 1 note, at {{.At}}"
+msgstr[1] "You have {{.Count}} notes, at {{.At}}"

@@ -1,0 +1,70 @@
+msgid ""
+msgstr ""
+"POT-Creation-Date: 0001-01-01T00:00:00+00:00\n"
+"Language: cy\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n==3 ? "
+"3 : n==6 ? 4 : 5);\n"
+"X-Generator: mopodofo\n"
+
+#: example/template/create.gohtml:4 example/template/create.gohtml:8
+msgid "create"
+msgstr "Creu"
+
+#: example/template/create.gohtml:13 example/template/layout/layout.gohtml:15
+msgctxt "button"
+msgid "create"
+msgstr "Creu!"
+
+#: example/paths/paths.go:22 example/template/layout/layout.gohtml:15
+msgctxt "path"
+msgid "create"
+msgstr "/creu"
+
+#: example/template/home.gohtml:12
+msgctxt "button"
+msgid "delete"
+msgstr "Dileu!"
+
+#: example/paths/paths.go:24
+msgctxt "path"
+msgid "delete"
+msgstr "/dileu"
+
+#: example/template/home.gohtml:4 example/template/layout/layout.gohtml:14
+msgid "home"
+msgstr "Cartref"
+
+#: example/paths/paths.go:20 example/template/layout/layout.gohtml:14
+msgctxt "path"
+msgid "home"
+msgstr "/cy"
+
+#. Personalisation available: Port
+#: example/main.go:33 example/main.go:35
+msgid "runningOn"
+msgstr "Yn rhedeg ar y porthladd {{.Port}}"
+
+#: example/template/layout/layout.gohtml:23
+msgid "seeContentInTheOtherLanguage"
+msgstr "See this in English"
+
+#: example/template/layout/layout.gohtml:16
+msgctxt "button"
+msgid "signOut"
+msgstr "Arwyddo allan"
+
+#: example/template/layout/layout.gohtml:6
+msgid "siteName"
+msgstr "Dyma fy ngwefan"
+
+#: example/template/home.gohtml:8
+#, fuzzy
+msgid "youHaveXNotesAt"
+msgid_plural "youHaveXNotesAt"
+msgstr[0] "Nid oes gennych 0 neges"
+msgstr[1] "Mae gennych chi {{.Count}} neges"
+msgstr[2] "Mae gennych chi {{.Count}} neges"
+msgstr[3] "Mae gennych chi {{.Count}} neges"
+msgstr[4] "Mae gennych chi {{.Count}} neges"
+msgstr[5] "Mae gennych chi {{.Count}} neges"

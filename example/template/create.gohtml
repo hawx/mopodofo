@@ -1,0 +1,15 @@
+{{ template "layout" . }}
+
+{{ define "pageTitle" }}
+  {{ tr "create" }}
+{{ end }}
+
+{{ define "pageContent" }}
+    <h1>{{ tr "create" }}</h1>
+
+    <form method="post">
+      <textarea name="content"></textarea>
+
+      <button type="submit">{{ trc "button" "create" }}</button>
+    </form>
+{{ end }}

@@ -1,0 +1,11 @@
+<title>{{ trc "title" "welcomeMessage" }}</title>
+
+<h1>{{ trc "heading" "welcomeMessage" }}</h1>
+
+<p>{{ trs "youHaveXMessages" (len .Messages) }}</p>
+
+<ul>
+  {{ range .Messages }}
+    <li>{{ trf "personSaidSomething" "Person" .Person "Content" .Content }}</li>
+  {{ end }}
+</ul>

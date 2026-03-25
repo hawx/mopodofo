@@ -1,0 +1,32 @@
+msgid ""
+msgstr ""
+"POT-Creation-Date: 0001-01-01T00:00:00+00:00\n"
+"X-Generator: mopodofo\n"
+
+#: example/pkg/pkg.go:21
+msgid "goodbyeMessage"
+msgstr ""
+
+#: example/pkg/pkg.go:17
+msgid "helloMessage"
+msgstr ""
+
+#. Personalisation available: Person, Content
+#: example/pkg/pkg.go:14 example/template/template.gohtml:191
+msgid "personSaidSomething"
+msgstr ""
+
+#: example/pkg/pkg.go:12 example/template/template.gohtml:58
+msgctxt "heading"
+msgid "welcomeMessage"
+msgstr ""
+
+#: example/pkg/pkg.go:11 example/template/template.gohtml:10
+msgctxt "title"
+msgid "welcomeMessage"
+msgstr ""
+
+#: example/pkg/pkg.go:13 example/template/template.gohtml:104
+msgid "youHaveXMessages"
+msgid_plural "youHaveXMessages"
+msgstr[0] ""

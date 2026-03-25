@@ -1,0 +1,41 @@
+msgid ""
+msgstr ""
+"POT-Creation-Date: 0001-01-01T00:00:00+00:00\n"
+"Language: cy\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n==3 ? "
+"3 : n==6 ? 4 : 5);\n"
+"X-Generator: mopodofo\n"
+
+#: example/pkg/pkg.go:21
+msgid "goodbyeMessage"
+msgstr "Bje"
+
+#: example/pkg/pkg.go:17
+msgid "helloMessage"
+msgstr "Hej"
+
+#. Personalisation available: Person, Content
+#: example/pkg/pkg.go:14 example/template/template.gohtml:191
+msgid "personSaidSomething"
+msgstr "{{.Content}} sez {{.Person}}"
+
+#: example/pkg/pkg.go:12 example/template/template.gohtml:58
+msgctxt "heading"
+msgid "welcomeMessage"
+msgstr "Wej!"
+
+#: example/pkg/pkg.go:11 example/template/template.gohtml:10
+msgctxt "title"
+msgid "welcomeMessage"
+msgstr "Wej"
+
+#: example/pkg/pkg.go:13 example/template/template.gohtml:104
+msgid "youHaveXMessages"
+msgid_plural "youHaveXMessages"
+msgstr[0] "Hav 0 what"
+msgstr[1] "Hav 1 whats"
+msgstr[2] "Hav 2 whatis"
+msgstr[3] "Hav 3 whatis"
+msgstr[4] "Hav 4 whatis"
+msgstr[5] "Hav 5 whatis"
